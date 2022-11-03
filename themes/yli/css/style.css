@@ -26,6 +26,7 @@ body {
 
 .main {
     flex: 1 0 auto;
+    padding: 0 2em;
 }
 
 .header, .footer {
@@ -34,20 +35,27 @@ body {
 
 /* Header */
 
+.header {
+    background-image: url("../../../assets/img/background_header.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #222;
+}
 .header, .site-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 3em 3em 3em 1em;
 }
 
 @media (max-width: 767px) {
     .title, .logo {
-        padding: 1em 1em 1em 0;
+        padding: 1em 1em 1em 0.5em;
     }
     .title {
         min-width: 50%;
@@ -55,6 +63,10 @@ body {
     .logo {
         max-width: 30%;
     }
+}
+
+.title {
+    align-self: center;
 }
 
 .title * {
@@ -65,12 +77,21 @@ body {
     font-style: italic;
 }
 
+/* Nav */
+
+#nav a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 /* Footer */
 
 .footer {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    overflow: hidden;
+    background-color: #1fa6fa;
 }
 
 .footer a {
@@ -80,6 +101,10 @@ body {
 
 .footer .social {
     font-size: 3rem;
+}
+
+.social .fa:hover {
+    color: white;
 }
 
 /* Practice kmom01 */
@@ -127,8 +152,12 @@ p, td, th, li, dd {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 0.6em;
-    font-weight: bold;
+    margin: 0.6em 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+p, a, li {
+    font-family: 'Oswald', sans-serif;
 }
 
 img {
