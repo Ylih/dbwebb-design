@@ -11,7 +11,11 @@ timezone: ~                         # Your PHP installation might require you to
 ##
 # Theme
 #
+<<<<<<< HEAD
 theme: kmom02                       # The name of your custom theme
+=======
+theme: yli                          # The name of your custom theme
+>>>>>>> bbef77d1b7319ba3a7407e052ef1ebf3b3bf9bee
 themes_url: ~                       # Pico will try to guess the URL to the themes dir of your installation;
                                     #     If this fails, override it here. Example: https://example.com/pico/themes/
 theme_config:                       # Additional theme-specific config
