@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+    padding: 0 2em;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+/* Header */
+
+.header {
+    background-image: url("../../../assets/img/background_header.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #222;
+}
+.header, .site-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Title */
+
+.title, .logo {
+    padding: 3em 3em 3em 1em;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0.5em;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title {
+    align-self: center;
+}
+
+.title * {
+    color: #111;
+}
+
+.title p {
+    font-style: italic;
+}
+
+/* Nav */
+
+#nav a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+    overflow: hidden;
+    background-color: #1fa6fa;
+}
+
+.footer a {
+    color: #222;
+    text-decoration: none;
+}
+
+.footer .social {
+    font-size: 3rem;
+}
+
+.social .fa:hover {
+    color: white;
+}
+
+/* Practice kmom01 */
+
+#elementOne {
+    width: 600px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: black;
+    box-sizing: content-box;
+}
+#elementTwo {
+    width: 100%;
+    height: 100px;
+    border: 1px solid red;
+    background-color: blue;
+    box-sizing: content-box;
+}
+#elementThree {
+    width: 50vw;
+    height: 100px;
+    border: 1px solid blue;
+    background-color: red;
+    box-sizing: border-box;
+}
+#elementFour {
+    width: 100vw;
+    height: 100px;
+    border: 1px solid red;
+    background-color: green;
+}
+
+/* Typografy */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    color: #444;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.6em 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+p, a, li {
+    font-family: 'Oswald', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
+
+/* Code */
+
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #f5f5f5;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.9824;
+}
+
+pre {
+    padding: 0 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #f5f5f5;
+}
+
+pre code {
+    display: block;
+    margin: 0;
+    padding: 1.1111em 0;
+    border: 0 none;
+    background: transparent;
+    overflow-x: auto;
+    line-height: 1.4;
+}
+
+/* Blockquote */
+
+blockquote {
+    font-style: italic;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 0.5em solid #f5f5f5;
+}

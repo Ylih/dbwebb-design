@@ -1,0 +1,42 @@
+* {
+    font-family: $text-font;
+    color: $font-color;
+}
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $header-font;
+    margin-bottom: $magic-number;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0; //removes margin from normalize.css
+    margin-bottom: $magic-number * 2;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: $base-font-size;
+    margin-bottom: $magic-number;
+}

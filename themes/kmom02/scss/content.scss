@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+
+ul {
+    padding-left: 1.5em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1 0 auto;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: ($magic-number * 2) 2rem;
+}
+
+.hidden {
+    display: none !important;
+}
