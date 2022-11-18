@@ -55,3 +55,9 @@
         cursor: pointer;
     }
 }
+
+@media (max-width: 485px) {
+    .main {
+        padding: 2.5rem 1rem;
+    }
+}
