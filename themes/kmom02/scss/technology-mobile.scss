@@ -2,4 +2,9 @@
     .tech-sidebar {
         display: none;
     }
+
+    .technology-content pre {
+        width: 80vw;
+        overflow:auto;
+    }
 }
