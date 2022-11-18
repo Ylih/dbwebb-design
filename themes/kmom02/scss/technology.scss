@@ -1,0 +1,27 @@
+.technology-page {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tech-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-weight: bold;
+    margin-right: $magic-number;
+}
+
+.tech-sidebar ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.tech-sidebar li {
+    margin-bottom: calc($magic-number/2);
+}
+
+.tech-sidebar a:hover {
+    text-decoration: none;
+    color: $accent-color;
+}

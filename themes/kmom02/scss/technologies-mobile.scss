@@ -1,0 +1,88 @@
+@media (max-width: 820px) {
+    .technologies-page {
+        display: grid;
+        grid-template-columns: 70vw;
+        grid-template-rows: 150px 300px 300px 300px 300px 300px 300px 300px;
+        gap: 2em;
+    }
+
+    .technologies-page h1 {
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
+
+    .html {
+        grid-column: 1 / 1;
+        grid-row: 2 / 3;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .css {
+        grid-column: 1 / 1;
+        grid-row: 3 / 4;
+    }
+
+    .php {
+        grid-column: 1 / 1;
+        grid-row: 4 / 5;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .javascript {
+        grid-column: 1 / 1;
+        grid-row: 5 / 6;
+
+        h2 {
+            top: 0;
+            left: 0;
+            text-align: start;
+        }
+    }
+
+    .python {
+        grid-column: 1 / 1;
+        grid-row: 6 / 7;
+
+        h2 {
+            top: 0;
+            left: 0;
+            text-align: start;
+        }
+    }
+
+    .sqlite {
+        grid-column: 1 / 1;
+        grid-row: 7 / 8;
+    }
+
+    .git {
+        grid-column: 1 / 1;
+        grid-row: 8 / 9;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .technologies-page img {
+        height: 100%;
+    }
+
+    .technologies-page h2 {
+        font-size: 1.5em;
+    }
+
+    .technologies-page {
+        grid-template-columns: 70vw;
+        grid-template-rows: 100px 200px 200px 200px 200px 200px 200px 200px;
+        gap: 2em;
+    }
+}
