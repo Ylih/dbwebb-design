@@ -6789,8 +6789,8 @@ body {
     display: none;
   }
   .technology-content pre {
-    width: 80vw;
-    overflow: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
   }
 }
 blockquote {
