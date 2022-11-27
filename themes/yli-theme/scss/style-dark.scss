@@ -1,0 +1,26 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables-dark';
+@import 'typography';
+
+@import 'header';
+@import 'content';
+@import 'footer';
+@import 'technologies';
+@import 'analysis-landing';
+@import 'analysis-landing-mobile';
+@import 'analysis-color';
+@import 'technologies-mobile';
+@import 'technology';
+@import 'technology-mobile';
+@import 'test';
+
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';

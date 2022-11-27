@@ -7,14 +7,13 @@
 
 .header {
     flex: 0 0 auto;
-    background-color: $accent-color;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
 }
 
 .title,
 
 .logo {
-    padding: 3em 3em 3em 1em;
+    padding: 0.5em 1em;
 }
 
 @media (max-width: 767px) {
@@ -37,7 +36,7 @@
 }
 
 .title * {
-    color: #111;
+    color: $header-color;
 }
 
 .title h1 {
@@ -48,7 +47,11 @@
     font-style: italic;
 }
 
+.nav li a {
+    color: $font-color;
+}
+
 .nav a:hover {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: $hover-color;
 }

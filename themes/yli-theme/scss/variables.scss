@@ -1,0 +1,30 @@
+$font-color: #2b5975;
+$font-alternative-color: #fff;
+$header-font: 'Roboto', sans-serif;
+$text-font: 'Lora', serif;
+
+$base-line-height: 1.4;
+$base-font-size: 1.25rem;
+$magic-number: $base-line-height * $base-font-size;
+
+$hover-color: #4893c2;
+$header-color: #4f6675;
+$background-alt-color: #5abaf5;
+$background-color: #a5d7f7;
+
+$border-color: #ccc;
+
+$shadow: rgba(0, 0, 0, 0.2);
+
+//Filter variables
+$highlight: brightness(120%);
+$photofilter: brightness(100%) contrast(100%);
+
+/*
+--monochromatic color scheme--
+$Color1: #A5D7F7; - background
+$Color2: #2B5975; - font
+$Color3: #4F6675; - headers
+$Color4: #5ABAF5; - footer
+$Color5: #4893C2; - hover
+*/

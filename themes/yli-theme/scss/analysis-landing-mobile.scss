@@ -1,0 +1,48 @@
+@media (max-width: 750px) {
+    .analysis-page {
+        display: grid;
+        grid-template-columns: 70vw;
+        grid-template-rows: 150px 300px 300px 300px;
+        gap: 2em;
+    }
+
+    .analysis-page h1 {
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
+
+    .colors {
+        grid-column: 1 / 1;
+        grid-row: 2 / 3;
+    }
+
+    .load {
+        grid-column: 1 / 1;
+        grid-row: 3 / 4;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .principles {
+        grid-column: 1 / 1;
+        grid-row: 4 / 5;
+
+        img {
+            height: 100%;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .analysis-page h2 {
+        font-size: 1.5em;
+    }
+
+    .analysis-page {
+        grid-template-columns: 70vw;
+        grid-template-rows: 100px 200px 200px 200px;
+        gap: 2em;
+    }
+}

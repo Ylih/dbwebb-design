@@ -1,10 +1,10 @@
 ---
-Title: Teknologier
+Title: Technologies
 Description: Landing page for technologies
 Template: technologies
 ---
 
-Teknologier
+Technologies
 =========
 
 <div class="tech-box html">

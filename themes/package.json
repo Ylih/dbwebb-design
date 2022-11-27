@@ -7,9 +7,16 @@
     "example": "example"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
-    "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass yli-theme/scss/style.scss:yli-theme/css/style.css yli-theme/scss/style-dark.scss:yli-theme/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass yli-theme/scss/style.scss:yli-theme/css/style.min.css yli-theme/scss/style-dark.scss:yli-theme/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass yli-theme/scss/style-dark.scss yli-theme/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass yli-theme/scss/style-dark.scss yli-theme/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass yli-theme/scss/style.scss yli-theme/css/style.css --no-source-map",
+    "style-light-min": "sass yli-theme/scss/style.scss yli-theme/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

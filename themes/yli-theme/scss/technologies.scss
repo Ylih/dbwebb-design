@@ -13,7 +13,7 @@
 
 .tech-box {
     position: relative;
-    border: 1px solid #ccc;
+    border: 1px solid $border-color;
     overflow: hidden;
 
     img {
@@ -25,11 +25,13 @@
         padding: 1em 0.5em;
         width: 100%;
         margin: 0;
+        z-index: 1;
+        color: #333;
     }
 }
 
 .tech-box:hover {
-    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 5px 0 $shadow;
 }
 
 .html {

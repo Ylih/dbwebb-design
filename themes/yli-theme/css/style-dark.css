@@ -6473,13 +6473,14 @@ p {
 
 .header {
   flex: 0 0 auto;
-  background-color: #9dd3ee;
+  align-items: center;
+  background-color: #FF9488;
   border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .title,
 .logo {
-  padding: 3em 3em 3em 1em;
+  padding: 0.5em 1em 0.5em 1em;
 }
 
 @media (max-width: 767px) {
@@ -6532,7 +6533,7 @@ ul {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #fff1e8;
+  background-color: #E88D6F;
   min-height: 100vh;
 }
 
@@ -6552,7 +6553,7 @@ body {
   justify-content: space-between;
   border-top: 1px solid #222;
   overflow: hidden;
-  background-color: #9dd3ee;
+  background-color: #FF9488;
   flex: 0 0 auto;
 }
 
@@ -6565,7 +6566,8 @@ body {
   font-size: 3rem;
 }
 
-.social .fab:hover {
+.social .fab:hover,
+.social .fas:hover {
   color: rgb(255, 255, 255);
 }
 
@@ -6598,7 +6600,7 @@ body {
 }
 
 .tech-box:hover {
-  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
 }
 
 .html {
@@ -6781,7 +6783,7 @@ body {
 
 .tech-sidebar a:hover {
   text-decoration: none;
-  color: #9dd3ee;
+  color: #FF9488;
 }
 
 @media (max-width: 970px) {
@@ -6797,7 +6799,6 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #f5f5f5;
 }
 
 code {
@@ -6856,6 +6857,7 @@ pre code {
 @media (max-width: 970px) {
   .header {
     flex-direction: column;
+    align-items: unset;
   }
   .nav ul {
     flex-direction: column;
