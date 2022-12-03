@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/my_logo.png
+Logo: image/my_logo.png
 Tagline: My portfolio.
 Social:
     - title: Link till min instagram.
@@ -18,4 +18,3 @@ Social:
       url: ?action=session_destroy
       icon: fas fa-trash-alt
 ---
-

@@ -31,7 +31,7 @@ Resultat
 -----------------------
 ###Hemsida 1
 
-<img class="analysis-img" src="%base_url%/assets/img/hemsida1img.png" alt="Kevin Powell page">
+<img class="analysis-img" src="%base_url%/image/hemsida1img.png" alt="Kevin Powell page">
 
 <table class="analysis-color">
     <tr>
@@ -53,7 +53,7 @@ Vid första anblick så ger Hemsida 1 ett minimalistiskt intryck med en enkel me
 
 ###Hemsida 2
 
-<img class="analysis-img" src="%base_url%/assets/img/hemsida2img.png" alt="Feber page">
+<img class="analysis-img" src="%base_url%/image/hemsida2img.png" alt="Feber page">
 
 <table class="analysis-color">
     <tr>
@@ -75,7 +75,7 @@ På denna webbplats hittade vi en tydlig kontrast, i både färgval och typograf
 
 ###Hemsida 3
 
-<img class="analysis-img" src="%base_url%/assets/img/hemsida3img.png" alt="A forest life page">
+<img class="analysis-img" src="%base_url%/image/hemsida3img.png" alt="A forest life page">
 
 <table class="analysis-color">
     <tr>

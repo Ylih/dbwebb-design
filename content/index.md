@@ -14,4 +14,4 @@ Förväntningar
 I denna kurs ser jag fram emot att lära mig mer om CSS och hur man bör tänka för att hålla allt organiserat.
 
 
-![gammal bild på mig](%base_url%/assets/img/JYH.png "En gammal bild på mig")
+![gammal bild på mig](%base_url%/image/JYH.png "En gammal bild på mig")
