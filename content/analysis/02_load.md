@@ -80,10 +80,13 @@ Det anses rimligt att en webbplats laddningstid har en enorm påverkan när det 
 Det finns således tydliga samband mellan laddningshastighet och bolagens tillväxt men även lönsamhet.
 
 Baserat på de värden som vi kunde avläsa via Pagespeed samt Lighthouse är vår samlade bedömning att webbplatserna bör rangordnas likt nedan utefter respektive webbplats laddningstid, vilket beräknats genom att vi mätt laddningstid tre gånger för varje enskild hemsida: 
-
-kevinpowell.co
-Feber.se
-aforestlife.com
+<div class="list-box">
+    <ol>
+        <li>kevinpowell.co</li>
+        <li>feber.se</li>
+        <li>aforestlife.com</li>
+    </ol>
+</div>
 
 Hemsida 1 utmärker sig tydligt som hemsidan med kortast laddningstid, vilket egentligen inte är ett oväntat resultat då den har en minimal layout till skillnad från Hemsida 2 och Hemsida 3. I det bifogade kalkylbladet så går det även att tyda att Hemsida 1 vidare urskiljde sig i att endast kalla på nio resurser mot Hemsida 2 och Hemsida 3 som kallar på en betydligt större mängd vilket överstiger hundra stycken. För både Hemsida 2 och Hemsida 3 finns det även stor förbättringspotential, så därav anser vi att Hemsida 1 blir vinnaren i detta fallet.
 
