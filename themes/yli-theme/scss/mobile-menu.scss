@@ -8,15 +8,18 @@
     justify-content: flex-end;
     padding: 1em 0;
     list-style: none;
+    font-weight: 900;
+    font-size: $base-font-size;
 }
 
 .nav ul li {
-    padding: 0 1em;
+    padding-right: 1em;
 }
 
 .nav a,
-.nav-toggle {
-    color: #333;
+.nav-toggle,
+.fa-bars {
+    color: $nav-color;
 }
 
 .nav-toggle {
@@ -26,6 +29,7 @@
 @media (max-width: 970px) {
     .header {
         flex-direction: column;
+        align-items: unset;
     }
 
     .nav ul {
@@ -37,6 +41,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        padding: unset;
     }
 
     .nav ul li a {

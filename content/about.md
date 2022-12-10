@@ -1,5 +1,5 @@
 ---
-Title: About
+Title: ABOUT
 Description: Page about techniques
 ---
 

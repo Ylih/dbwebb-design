@@ -1,5 +1,5 @@
 ---
-Title: Home
+Title: HOME
 Description: This is our index page.
 ---
 

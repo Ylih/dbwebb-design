@@ -90,7 +90,7 @@ Baserat på de värden som vi kunde avläsa via Pagespeed samt Lighthouse är v�
 
 Hemsida 1 utmärker sig tydligt som hemsidan med kortast laddningstid, vilket egentligen inte är ett oväntat resultat då den har en minimal layout till skillnad från Hemsida 2 och Hemsida 3. I det bifogade kalkylbladet så går det även att tyda att Hemsida 1 vidare urskiljde sig i att endast kalla på nio resurser mot Hemsida 2 och Hemsida 3 som kallar på en betydligt större mängd vilket överstiger hundra stycken. För både Hemsida 2 och Hemsida 3 finns det även stor förbättringspotential, så därav anser vi att Hemsida 1 blir vinnaren i detta fallet.
 
-<iframe class="spreadsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmFU97IHE0GotcE4FXNo_8dOboQlRHjePuEUy5DdoVHPxIPqwVMykQy9xbZ5GgJeKK-pDKzNd8n-LC/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe class="spreadsheet" title="spreadsheet with data." src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmFU97IHE0GotcE4FXNo_8dOboQlRHjePuEUy5DdoVHPxIPqwVMykQy9xbZ5GgJeKK-pDKzNd8n-LC/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 Vår bedömning är att den optimala absoluta laddningstiden understiger 2000MS. Mot bakgrund av detta kan vi avläsa att hemsida 1 står sig förhållandevis bra mot detta gränsvärde medan hemsida 2 och hemsida 3 har fortsatt förbättringspotential.
 

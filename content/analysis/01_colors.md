@@ -14,7 +14,7 @@ Det första valet är en blogg som vid första intrycket ger en minimalistisk k�
 Hemsidan: https://www.kevinpowell.co/, hädanefter “Hemsida 1”.
 
 Det andra valet är webbplats vars design är något mer intensiv och vid första anblick nästan ger ett “plottrigt” intryck.
-Hemsida: https://feber.se/?p=2, hädanefter “Hemsida 2”.
+Hemsida: https://feber.se/, hädanefter “Hemsida 2”.
 
 Det tredje och sista valet är en hemsida som har en lekfull och omfattande design men som lyckats bibehålla en balans som ger en trevlig och lättsam användarupplevelse.
 Hemsida: https://aforestlife.com/, hädanefter “Hemsida 3”.

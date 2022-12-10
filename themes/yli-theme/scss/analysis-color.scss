@@ -1,5 +1,6 @@
 .analysis-img {
     margin-bottom: $magic-number;
+    border: 1px solid $border-color;
 }
 
 .analysis-color {
@@ -7,4 +8,8 @@
     margin-bottom: $magic-number;
     border-spacing: 4px;
     border-collapse: separate;
+
+    td {
+        border: 1px solid $border-color;
+    }
 }

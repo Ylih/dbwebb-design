@@ -1,5 +1,5 @@
 ---
-Logo: image/my_logo.png
+Logo: image/my_logo.png&w=150&h=150
 Tagline: My portfolio.
 Social:
     - title: Link till min instagram.

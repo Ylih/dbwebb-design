@@ -3,11 +3,13 @@
 .site-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header {
     flex: 0 0 auto;
-    background-color: transparent;
+    background-color: $background-alt-color;
+    border-bottom: 1px solid $border-color;
 }
 
 .title,
@@ -31,12 +33,12 @@
     }
 }
 
-.title {
-    align-self: center;
+.title a {
+    text-decoration: none;
 }
 
 .title * {
-    color: $header-color;
+    color: $nav-color;
 }
 
 .title h1 {
@@ -47,8 +49,11 @@
     font-style: italic;
 }
 
-.nav li a {
-    color: $font-color;
+.nav a {
+    font-family: $header-font;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+    text-underline-position: under;
 }
 
 .nav a:hover {
